@@ -13,7 +13,7 @@ useHead({
             <svg class="icon text-5xl" aria-hidden="true">
               <use xlink:href="#icon-guanlianzhibopingtai"></use>
             </svg>
-            直播弹幕系统</a>
+            <span class="hidden sm:block">直播弹幕系统</span></a>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1">
@@ -46,8 +46,10 @@ useHead({
         <svg class="icon text-4xl" aria-hidden="true">
               <use xlink:href="#icon-guanlianzhibopingtai"></use>
             </svg>
-        <p>Copyright © 2024 - All right reserved 吴八哥科技工作室</p>
+        <div>
+          <p>Copyright © 2024 - All right reserved 吴八哥科技工作室</p>
         <p>蜀ICP备19039835号-2</p>
+        </div>
       </aside>
       <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <!-- 电话 -->
