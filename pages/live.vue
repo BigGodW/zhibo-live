@@ -7,9 +7,12 @@ const liveList = [
 
 </script>
 <template>
-    <div>
-        <div class="flex justify-between overflow-scroll">
-            <LiveItem class=" flex-1" v-for="item in liveList" :title="item.title" :liveUrl="item.liveUrl" :icon="item.icon"></LiveItem>
+    <div class=" w-screen">
+        <div class="flex w-screen justify-center
+            scale-50 sm:scale-75 md:scale-90 lg:scale-100
+            
+            ">
+            <LiveItem class=" " v-for="item in liveList" :title="item.title" :liveUrl="item.liveUrl" :icon="item.icon"></LiveItem>
         </div>
     </div>
 </template>

@@ -2,10 +2,12 @@
 import {ref} from 'vue'
 const props = defineProps(['title', 'liveUrl', 'icon'])
 const iframe = ref(null)
+// 刷新
 const reload = ()=>{
     console.log('刷新')
     iframe.value.src = props.liveUrl
 }
+// 全屏
 const fullPage = ()=>{
     console.log('全屏')
     iframe.value.requestFullscreen()
@@ -31,7 +33,7 @@ const fullPage = ()=>{
         </h1>
         <div class="flex justify-center">
            
-                    <div class="artboard phone-3">
+                    <div class="artboard phone-1">
                         <!-- 嵌入其他网页 -->
                         <iframe ref="iframe" scrolling="no" allow="fullscreen" :src="liveUrl" width="100%" height="100%" frameborder="0"></iframe>
                     </div>
