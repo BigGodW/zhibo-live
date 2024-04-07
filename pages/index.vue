@@ -12,6 +12,16 @@ const lives = [
     <div>
         <div class="hero min-h-screen bg-base-200">
             <LiveSet></LiveSet>
+            <div>
+                <div class=" space-x-2">
+                    <button class="btn btn-primary">
+                        <NuxtLink to="/live">直播后台</NuxtLink>
+                    </button>
+                    <button class="btn btn-info">
+                        <NuxtLink to="https://www.123pan.com/s/UNqpjv-uI3GA.html">资源包下载</NuxtLink>
+                    </button>
+                   </div>
+            </div>
             <div class="hero-content flex-col lg:flex-row-reverse hidden">
                 <div>
                     <h1 class="text-2xl text-center sm:text-left sm:text-5xl font-bold">直播弹幕系统</h1>
