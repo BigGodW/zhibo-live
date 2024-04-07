@@ -40,7 +40,7 @@ useHead({
         </div>
       </div>
     </nav>
-    <div class="mx-[30px]">
+    <div>
       <NuxtPage />
     </div>
     

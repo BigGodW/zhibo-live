@@ -11,9 +11,8 @@ const lives = [
 <template>
     <div>
         <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                
-                <img src="/img/直播.png" class="w-full sm:w-3/5" alt="">
+            <LiveSet></LiveSet>
+            <div class="hero-content flex-col lg:flex-row-reverse hidden">
                 <div>
                     <h1 class="text-2xl text-center sm:text-left sm:text-5xl font-bold">直播弹幕系统</h1>
                     <p class="py-6 sm:text-3xl pr-9">

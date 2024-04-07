@@ -32,7 +32,7 @@ const fullPage = ()=>{
             </svg></button>
         </h1>
   
-        <iframe class=" max-w-[350px] mx-auto w-full 
+        <iframe class=" max-w-[450px] mx-auto w-full min-w-[300px]
         h-full  pb-[40px]" 
         ref="iframe"  allow="fullscreen" :src="liveUrl"></iframe>
  
