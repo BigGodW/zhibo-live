@@ -40,7 +40,10 @@ useHead({
         </div>
       </div>
     </nav>
-    <NuxtPage />
+    <div class="mx-[30px]">
+      <NuxtPage />
+    </div>
+    
     <footer class="footer items-center p-4 px-12 bg-neutral text-neutral-content">
       <aside class="items-center grid-flow-col">
         <svg class="icon text-4xl" aria-hidden="true">

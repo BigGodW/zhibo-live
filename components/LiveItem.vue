@@ -14,15 +14,15 @@ const fullPage = ()=>{
 }
 </script>
 <template>
-    <div class="border">
+    <div class="w-full h-full">
         <h1 class=" flex justify-center text-2xl my-1 items-center gap-3">
             <svg class="icon text-3xl" style="" aria-hidden="true">
                 <use :xlink:href="'#'+ icon"></use>
             </svg>
             {{ title }}
             <!-- 刷新图标 -->
-            <button class="" @click="reload">
-                <svg class="icon text-3xl" style="" aria-hidden="true">
+            <button  @click="reload">
+                <svg class="icon text-3xl"  aria-hidden="true">
                 <use xlink:href="#icon-shuaxin"></use>
             </svg>
             </button>
@@ -31,14 +31,10 @@ const fullPage = ()=>{
                 <use xlink:href="#icon-quanping"></use>
             </svg></button>
         </h1>
-        <div class="flex justify-center">
-           
-                    <div class="artboard phone-1">
-                        <!-- 嵌入其他网页 -->
-                        <iframe ref="iframe" scrolling="no" allow="fullscreen" :src="liveUrl" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-               
-        </div>
-        
+  
+        <iframe class=" max-w-[350px] mx-auto w-full 
+        h-full  pb-[40px]" 
+        ref="iframe"  allow="fullscreen" :src="liveUrl"></iframe>
+ 
     </div>
 </template>
