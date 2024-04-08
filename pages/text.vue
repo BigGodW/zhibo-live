@@ -27,5 +27,12 @@ const lives = [
             </div>
         </div>
         <img src="https://bgwblog.wubug.cn/%E7%9B%B4%E6%92%AD.png" class="max-w-[880px] mx-auto w-full px-[50px]" alt="">
+        <div>
+            <a class="border p-2" href="https://www.runoob.com/tags/tag-base.html" target="_blank">blank</a>
+            <a class="border p-2" href="https://www.runoob.com/tags/tag-base.html" target="_parent">_parent</a>
+            <a class="border p-2" href="https://www.runoob.com/tags/tag-base.html" target="top">top</a>
+            <a class="border p-2" href="https://www.runoob.com/tags/tag-base.html" target="_self">_self</a>
+        </div>
+    
     </div>
 </template>

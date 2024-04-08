@@ -6,8 +6,7 @@ const lives = route.query.pingtai && route.query.pingtai.split(',')
 const liveList = [
     {name:'weixin',title: "微信-视频号", icon: 'icon-weixin',liveUrl:"https://channels.weixin.qq.com/platform/live/liveBuild"}, 
     {name:"douyin", title: "抖音直播",icon:"icon-douyin",liveUrl:"https://fxg.jinritemai.com/ffa/live_control/live/control" }, 
-    {name:"kuaishou" ,title: "快手直播",icon:"icon-kuaishou",liveUrl:"https://zs.kwaixiaodian.com/page/helper" },
-    {name:"kuaishou" ,title: "支付宝-生活号",icon:"icon-zhifubaozhifu",liveUrl:"https://b.alipay.com/page/live-console/list?appId=2030093995712846" }
+    {name:"kuaishou" ,title: "快手直播",icon:"icon-kuaishou",liveUrl:"https://zs.kwaixiaodian.com/page/helper" }
 ]
 
 </script>
