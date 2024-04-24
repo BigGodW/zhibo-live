@@ -19,7 +19,7 @@ watch([xse,xsrw],([x,y])=>{
 })
 </script>
 <template>
-    <div class="container mx-auto h-screen *:m-2 scale-75 md:scale-100">
+    <div class="container mx-auto h-screen *:m-2 scale-[.8] md:scale-100">
         <h1 class="text-center text-3xl">提成计算</h1>
         <div>
             <label for="" class=" inline-block w-32 ">月总销售额</label>
@@ -31,7 +31,11 @@ watch([xse,xsrw],([x,y])=>{
         </div>
         <div>
             <label for="" class=" inline-block w-32 ">销售额任务</label>
-            <input type="number" v-model="xsrw" class="input input-bordered"><br class="md:hidden"> <span >完成率：<span class="kbd">{{ (wcl>100? 100: wcl).toFixed(2) }}%</span></span>
+            <input type="number" v-model="xsrw" class="input input-bordered">
+            <br class="md:hidden"> 
+            <div class="my-2 md:my-0 md:inline-block">
+                <span class=" inline-block  w-32 md:w-16">完成率：</span><span class="kbd">{{ (wcl>100? 100: wcl).toFixed(2) }}%</span>
+            </div>
         </div>
         <div>
             <label for="" class=" inline-block w-32 ">代班客服</label>
