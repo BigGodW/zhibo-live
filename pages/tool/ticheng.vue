@@ -31,7 +31,7 @@ watch([xse,xsrw],([x,y])=>{
         </div>
         <div>
             <label for="" class=" inline-block w-32 ">销售额任务</label>
-            <input type="number" v-model="xsrw" class="input input-bordered"> <span>完成率：{{ (wcl>100? 100: wcl).toFixed(2) }}%</span>
+            <input type="number" v-model="xsrw" class="input input-bordered"><br class="md:hidden"> <span >完成率：<span class="kbd">{{ (wcl>100? 100: wcl).toFixed(2) }}%</span></span>
         </div>
         <div>
             <label for="" class=" inline-block w-32 ">代班客服</label>
