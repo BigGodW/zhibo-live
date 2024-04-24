@@ -19,7 +19,7 @@ watch([xse,xsrw],([x,y])=>{
 })
 </script>
 <template>
-    <div class="container mx-auto h-screen *:m-2">
+    <div class="container mx-auto h-screen *:m-2 scale-75 md:scale-100">
         <h1 class="text-center text-3xl">提成计算</h1>
         <div>
             <label for="" class=" inline-block w-32 ">月总销售额</label>
