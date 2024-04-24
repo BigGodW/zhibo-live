@@ -3,6 +3,8 @@
 </script>
 <template>
     <div>
-        <iframe src="http://localhost:3000/text" sandbox="allow-scripts allow-same-origin allow-forms" target="_self" frameborder="0"></iframe>
+        <Meta target="_self" />
+        <iframe class="w-full h-screen" src="http://localhost:3000/text"
+         target="_self" frameborder="0"></iframe>
     </div>
 </template>
