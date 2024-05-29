@@ -19,7 +19,7 @@ const change = ()=>{
 }
 </script>
 <template>
-    <div class="w-full h-full">
+    <div class="w-full h-screen overflow-hidden">
         <h1 class=" flex justify-center text-2xl my-1 items-center gap-3">
             <svg class="icon text-3xl" style="" aria-hidden="true">
                 <use :xlink:href="'#' + icon"></use>
@@ -36,11 +36,11 @@ const change = ()=>{
                     <use xlink:href="#icon-quanping"></use>
                 </svg></button>
             <div>
-                <SetLive></SetLive>
+                <SetLive @changeurl="(newUrl)=>{ alert(newUrl)}"></SetLive>
             </div>    
         </h1>
 
-        <iframe class=" max-w-[450px] mx-auto w-full min-w-[300px]
+        <iframe class=" max-w-[450px] mx-auto w-full min-w-[300px] 
         h-full  pb-[40px]" ref="iframe" allow="fullscreen" :src="liveUrl">
         </iframe>
 

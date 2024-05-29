@@ -1,4 +1,7 @@
 <script setup>
+definePageMeta({
+  layout: 'noheader'
+})
 const route = useRoute()
 // 路由参数 平台: pingtia='weixin,douyin,kuaishou'
 const lives = route.query.pingtai && route.query.pingtai.split(',')
